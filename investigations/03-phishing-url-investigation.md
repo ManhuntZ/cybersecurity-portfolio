@@ -11,7 +11,7 @@ targeting PayPal and Google credentials across multiple
 countries.
 
 ## Initial Indicator
-- URL: `paypal-secure-login.com`
+- URL: `paypal-secure-login[.]com`
 - First flagged: 2013
 
 ## Tools Used
