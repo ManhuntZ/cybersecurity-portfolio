@@ -29,10 +29,10 @@ source="attack.log" "192.168.1.105"
 - Automated bot performing 1 attempt per second
 - 6 failed attempts before success
 - Full root access achieved
-- Single source IP: 192.168.1.105
+- Single source IP: 192[.]168[.]1[.]105
 
 ## Response Actions
-1. Block IP 192.168.1.105 at firewall
+1. Block IP 192[.]168[.]1[.]105 at firewall
 2. Terminate active session
 3. Change root password immediately
 4. Restrict SSH access to known IPs only
