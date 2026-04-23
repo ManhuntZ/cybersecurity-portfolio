@@ -21,12 +21,12 @@ countries.
 ## Investigation Process
 
 ### Step 1 - URL Analysis
-- **URL:** paypal-secure-login.com
+- **URL:** paypal-secure-login[.]com
 - **VirusTotal Score:** 13/95 malicious
 - **Conclusion:** Confirmed phishing site
 
 ### Step 2 - IP Pivot
-- **IP:** 99.83.176.46
+- **IP:** 99[.]83[.]176[.]46
 - **Location:** United States
 - **VirusTotal Score:** 1/94
 - **Hosted Domains:** 200+
@@ -36,13 +36,13 @@ countries.
 Connected malicious domains found on same IP:
 | Domain | Risk | Reason |
 |--------|------|--------|
-| buypaypal.net | 🔴 High | Impersonates PayPal |
-| buypaypal.it | 🔴 High | Multi-country PayPal phishing |
-| googlecloud.com.br | 🔴 High | Impersonates Google Cloud |
-| citizenstatebanktx.net | 🟡 Medium | Suspicious bank domain |
+| buypaypal[.]net | 🔴 High | Impersonates PayPal |
+| buypaypal[.]it | 🔴 High | Multi-country PayPal phishing |
+| googlecloud[.]com[.]br | 🔴 High | Impersonates Google Cloud |
+| citizenstatebanktx[.]net | 🟡 Medium | Suspicious bank domain |
 
 ### Step 4 - Fresh Phishing Site Found
-- **Domain:** googlecloud.com.br
+- **Domain:** googlecloud[.]com[.]br
 - **Created:** 2026-04-15 (7 days old)
 - **VirusTotal Score:** 3/94
 - **Risk:** Active undetected phishing site
@@ -54,17 +54,17 @@ Connected malicious domains found on same IP:
 - Human analysis caught what automated tools missed
 
 ## IOCs (Indicators of Compromise)
-- IP: 99.83.176.46
-- Domain: paypal-secure-login.com
-- Domain: buypaypal.net
-- Domain: buypaypal.it
-- Domain: googlecloud.com.br
+- IP: 99[.]83[.]176[.]46
+- Domain: paypal-secure-login[.]com
+- Domain: buypaypal[.]net
+- Domain: buypaypal[.]it
+- Domain: googlecloud[.]com[.]br
 
 ## Recommended Actions
 1. Block all identified domains at firewall
-2. Block IP 99.83.176.46
+2. Block IP 99[.]83[.]176[.]46
 3. Alert users about active PayPal/Google phishing campaign
-4. Submit googlecloud.com.br to VirusTotal community
+4. Submit googlecloud[.]com[.]br to VirusTotal community
 5. Monitor for new domains on same IP infrastructure
 
 ## Key Learnings
