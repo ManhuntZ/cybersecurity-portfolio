@@ -11,7 +11,7 @@ Attacker gained full system access after 6 automated attempts.
 ## Timeline
 | Time | Event |
 |------|-------|
-| 09:23:11 | Brute force attack begins from 192.168.1.105 |
+| 09:23:11 | Brute force attack begins from 192[.]168[.]1[.]105 |
 | 09:23:16 | 6th failed attempt |
 | 09:23:47 | Successful login - system compromised |
 | 09:23:48 | Session opened for root |
@@ -23,7 +23,7 @@ Attacker gained full system access after 6 automated attempts.
 ## Queries Used
 source="attack.log" "Failed password"
 source="attack.log" "Accepted password"
-source="attack.log" "192.168.1.105"
+source="attack.log" "192[.]168[.]1[.]105"
 
 ## Findings
 - Automated bot performing 1 attempt per second
