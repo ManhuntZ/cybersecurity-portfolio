@@ -2,7 +2,7 @@
 
 **Date:** January 15, 2026  
 **Severity:** 🔴 Critical (one breach), 🟡 Medium (failed attempts)
-**MITRE ATT&CK:** T1110.001 - Brute Force: Password Guessing, T1110.004 - Brute Force: Credential Stuffing
+**MITRE ATT&CK:** T1110.001 - Brute Force: Password Guessing, T1110.004 - Brute Force: Credential Stuffing  
 **Status:** Resolved
 
 ## Summary
