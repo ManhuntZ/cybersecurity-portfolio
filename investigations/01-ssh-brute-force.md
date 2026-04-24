@@ -2,6 +2,7 @@
 
 **Date:** January 15, 2026
 **Severity:** 🔴 Critical
+**MITRE ATT&CK:** T1110.001 - Brute Force: Password Guessing
 **Status:** Resolved
 
 ## Summary
