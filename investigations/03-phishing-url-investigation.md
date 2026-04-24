@@ -2,7 +2,7 @@
 
 **Date:** April 2026  
 **Severity:** 🔴 High  
-**MITRE ATT&CK:** T1566 - Phishing
+**MITRE ATT&CK:** T1566 - Phishing  
 **Status:** Ongoing monitoring
 
 ## Summary
