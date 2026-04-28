@@ -1,9 +1,9 @@
 # Investigation 04 - BEC Phishing Email Analysis
 
-**Date:** April 2026
-**Severity:** 🔴 Critical
-**MITRE ATT&CK:** T1566.001 - Phishing: Spearphishing Link, T1566 - Phishing (BEC)
-**Status:** Resolved
+**Date:** April 2026  
+**Severity:** 🔴 Critical  
+**MITRE ATT&CK:** T1566.001 - Phishing: Spearphishing Link, T1566 - Phishing (BEC)  
+**Status:** Resolved  
 
 ## Summary
 Investigated a Business Email Compromise (BEC) phishing email 
