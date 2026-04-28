@@ -20,17 +20,19 @@ potential data theft.
 ## Investigation Process
 
 ### Step 1 - Email Header Analysis
-Delivered-To: employee@company[.]com
-Received: from mail[.]suspicious-server[.]ru
-(mail[.]suspicious-server[.]ru [185[.]220[.]101[.]45])
-by mx[.]company[.]com with ESMTP id x23si123456
-for <employee@company[.]com>;
-Mon, 15 Jan 2024 09:15:23 -0800
-From: "CEO John Smith" <ceo@company[.]com>
-Reply-To: attacker[@]gmail[.]com
-To: employee@company[.]com
-Subject: Urgent Wire Transfer Required
-Message-ID: <abc123@suspicious-server[.]ru>
+```
+Delivered-To: employee@company[.]com  
+Received: from mail[.]suspicious-server[.]ru  
+(mail[.]suspicious-server[.]ru [185[.]220[.]101[.]45])  
+by mx[.]company[.]com with ESMTP id x23si123456  
+for <employee@company[.]com>;  
+Mon, 15 Jan 2024 09:15:23 -0800  
+From: "CEO John Smith" <ceo@company[.]com>  
+Reply-To: attacker[@]gmail[.]com  
+To: employee@company[.]com  
+Subject: Urgent Wire Transfer Required  
+Message-ID: <abc123@suspicious-server[.]ru>  
+```
 
 **Authentication Results (via mxtoolbox[.]com):**
 - SPF: FAIL — 185[.]220[.]101[.]45 not authorized to send 
