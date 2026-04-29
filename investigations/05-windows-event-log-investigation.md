@@ -2,7 +2,8 @@
 
 **Date:** April 2026  
 **Severity:** 🔴 Critical  
-**MITRE ATT&CK:** T1110 - Brute Force, T1059.003 - Windows Command Shell, T1204 - Malicious File, T1136 - Create Account, 
+**MITRE ATT&CK:** T1110 - Brute Force, T1059.003 - Windows Command Shell, T1204 - Malicious File,  
+T1136 - Create Account, 
 T1078 - Valid Accounts, T1070.001 - Clear Windows Event Logs  
 **Status:** Resolved  
 
