@@ -51,6 +51,11 @@ professional SIEM tools, and structured learning.
 | 03 | Phishing URL & Threat Intelligence | VirusTotal, URLscan | 🔴 High | Apr 2026 |
 | 04 | BEC Phishing Email Analysis | MXToolbox, VirusTotal | 🔴 Critical | Apr 2026 |
 | 05 | Windows Event Log Investigation | Kibana, KQL, Event Viewer | 🔴 Critical | Apr 2026 |
+| 06 | Full SOC Simulation (Multi-Incident) | Kibana, KQL | 🔴🟡 Mixed | Jan 2026 |
+
+*Investigation 06 is a multi-incident simulation requiring 
+severity triage across three concurrent events — demonstrates 
+prioritization under ambiguity rather than single-attack analysis.*
 
 ### Attack Types Investigated
 - SSH Brute Force (T1110.001)
@@ -62,6 +67,8 @@ professional SIEM tools, and structured learning.
 - Anti-Forensics / Log Clearing (T1070.001)
 - DNS Sinkhole Analysis
 - Network Traffic Analysis (HTTP/HTTPS)
+- Data Exfiltration via Web Service (T1567)
+- Archive Collected Data (T1560)
 
 ### Certifications & Training
 | Certification | Platform | Status |
@@ -104,7 +111,7 @@ professional SIEM tools, and structured learning.
 - [x] Windows Event Log investigation
 - [x] Network traffic analysis (Wireshark)
 - [x] Google Cybersecurity Professional Certificate
-- [ ] Full SOC simulation investigation
+- [x] Full SOC simulation investigation
 - [x] LinkedIn profile setup
 - [ ] CompTIA Security+ preparation
 - [ ] Junior SOC job applications
