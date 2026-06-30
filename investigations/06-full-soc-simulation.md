@@ -1,11 +1,11 @@
 # Investigation 06 - Full SOC Simulation: Multi-Incident Overnight Review
 
-**Date:** January 20, 2026
-**Severity:** 🔴 Critical (Incident 1), 🟡 Medium (Incidents 2 & 3)
+**Date:** January 20, 2026   
+**Severity:** 🔴 Critical (Incident 1), 🟡 Medium (Incidents 2 & 3)   
 **MITRE ATT&CK:** T1110.001 - Brute Force: Password Guessing, 
 T1560 - Archive Collected Data, T1567 - Exfiltration Over Web 
-Service, T1566 - Phishing
-**Status:** Resolved (Incident 1), Monitoring (Incidents 2 & 3)
+Service, T1566 - Phishing   
+**Status:** Resolved (Incident 1), Monitoring (Incidents 2 & 3)   
 
 ## Summary
 Overnight log review identified three distinct security events 
